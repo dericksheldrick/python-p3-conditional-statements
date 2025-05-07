@@ -68,3 +68,24 @@ def calculator(operation, num1, num2):
     #         print("Invalid Operation!")
 
 print((calculator("+", 4, 7.3)))
+
+
+# dictionary mapping 
+
+dict_map = {
+    "hungry": "Refilling food bowl.",
+    "thirsty": "Refilling water bowl.",
+    "playful": "Playing tug-of-war.",
+    "cuddly": "Snuggling.",
+}
+
+items = dict_map.items() #to get the items of each dictionary #
+keys = dict_map.keys() #to get the keys of the dictionary#
+values= dict_map.values()#getting values of the dictioary#
+dict_map.popitem()#remov thw last  item#
+
+
+for key in values:
+    print(key)
+
+print(dict_map)
